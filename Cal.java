@@ -55,11 +55,11 @@ public class Cal  {
 	        n2=in.nextDouble();
 	        System.out.println("enter 1 for addition"+'\n'+"enter 2 for substration"+'\n'+
 	        	"enter 3 for multiply"+'\n'+"enter 4 for division"	);
-	        int option;
-	        option=in.nextInt();
-	        option=option+64;
+	        int op;
+	        op=in.nextInt();
+	        op=op+64;
 	        char a;
-	        a=(char)option;  // here i use type casting 
+	        a=(char)op;  // here i use type casting 
 	        Calculater obj=new Calculater();
 	       obj.twoNum(n1, n2);
 	       obj.forOption(a);
